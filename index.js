@@ -21,6 +21,7 @@ const clearCanvas = () => {
   const tiles = document.querySelectorAll(".canvas_tile");
   tiles.forEach((tile) => {
     tile.style.backgroundColor = "#dfe3ec";
+    tile.dataset.darkness = 0;
   });
 };
 
